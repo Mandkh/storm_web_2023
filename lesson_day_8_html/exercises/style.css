@@ -1,0 +1,87 @@
+* {
+    background-color: rgb(206, 247, 255);
+}
+h3 {
+    color: navy;
+}
+
+p {
+    color: #fb7d9e;
+}
+
+strong {
+    color: rgb(128, 0, 130);
+}
+
+div {
+
+    background-color: blue;
+    height: 300px;
+    width: 400px;
+}
+
+
+
+div div {
+    height: 50px;
+    width: 150px;
+}
+
+div div i {
+    background-color: hsl(322, 50%, 87%);
+}
+#zai {
+    background-color: aliceblue;
+    height:25px ;
+    width:400px;
+}
+#gap {
+    background-color: rgb(119, 133, 145);
+    height:25px ;
+    width:400px;
+}
+#burack {
+    background-color: rgb(31, 70, 105);
+    height:25px ;
+    width:400px;
+}
+#dogu {
+    background-color: rgb(35, 127, 208);
+    height:25px ;
+    width:400px;
+}
+#one {
+    background-color: blueviolet;
+    
+}
+
+#two {background-color: rgb(255, 37, 37);
+}
+#three {
+    background-color: blue;
+}
+#four {
+    background-color: darkcyan;
+}
+#five {
+    background-color: azure;
+}
+#six {
+   background-color: aqua;
+}
+#src {
+    height:400px;
+    width: 270px;
+}
+#bruh {background-color: rgb(27, 181, 163);
+    .dot {
+
+        height: 50px;
+        width: 50px;
+        background-color: #a7c31a;
+        border-radius: 80px;
+        display: inline-block;
+      }
+      
+      }
+
