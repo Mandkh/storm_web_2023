@@ -1,0 +1,58 @@
+* {
+    background-color: azure;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#by {
+    font-style: italic;
+}
+
+#laughter {
+    text-transform: capitalize;
+}
+
+.bruh {
+    text-decoration: line-through;
+}
+
+.link {
+    color: rgb(116, 108, 187);
+}
+
+.link:hover {
+    color: rgb(0, 0, 0);
+}
+
+.link:visited {
+    color: rgb(22, 111, 111);
+}
+
+#Duis {
+    text-transform: capitalize;
+}
+
+#trop {
+    font-size: large;
+}
+
+#didi {
+    text-decoration: line-through;
+}
+
+#kuro {
+    text-decoration: underline;
+}
+
+#senzu {
+    text-decoration: line-through;
+}
+
+#roux:hover {
+   text-transform: uppercase;
+    background-color: rgb(188, 127, 127);
+    font-weight: 900;
+
+}

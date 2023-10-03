@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(255, 183, 0);
+}
+table {
+    width: 900px;
+}
+th {
+    padding: 30px;
+}
+#antwerp {
+    background-color: grey;
+}
+.tore {
+    background-color: rgb(255, 242, 0);
+}
+.weibo {
+background-color: rgb(38, 93, 81);
+}
+th {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+td {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}

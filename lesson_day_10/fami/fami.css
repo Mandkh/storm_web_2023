@@ -1,0 +1,26 @@
+* {
+    background-color: azure;
+    margin: 0 auto;
+}
+#ehehe {
+    width: 40px;
+    height: 27px;
+    background-color: grey;
+}
+.name {
+text-align: left;
+}
+#mt {
+    width: 40px;
+    height: 27px;
+}
+th {
+    padding: 5px;
+    border-bottom: 2px solid #aac8a7;
+    border-top: 1px solid #c3edc0;
+}
+td {
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #c3edc0;
+}

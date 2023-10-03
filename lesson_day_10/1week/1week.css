@@ -1,0 +1,23 @@
+
+table {
+    width: 800px;
+    margin: 0 auto;
+}
+#orde {
+    background-color: grey;
+}
+th {
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+td {
+    padding: 20px;
+    
+}
+.even {
+    background-color: #f8e8ee;
+}
+.odd {
+    background-color: #faf3f0
+}

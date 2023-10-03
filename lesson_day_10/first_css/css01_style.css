@@ -1,0 +1,39 @@
+#bruh {
+    background-color: rgb(0, 153, 255);
+    width: 300px;
+    height: 200px;
+}
+#acid {
+    background-color: rgb(17, 185, 185);
+    max-width: 900px;
+    max-height: 300px;
+}
+#tree {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+#alarm { 
+    background-color: brown;
+    height: 300px;
+    width: 400px;
+    overflow-y:scroll ;
+}
+#up {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    overflow-y: scroll;
+}
+#down {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    overflow-y: scroll;
+}
+#mibd {
+    height: 100px;
+    width: 207px;
+    background-color: rgb(155, 229, 44);
+    overflow-y: scroll;
+}
