@@ -10,7 +10,9 @@
     border-bottom: 2px solid rgb(32, 149, 114);
     box-shadow: 8px 8px 10px 15px rgb(234, 234, 234);
     border-spacing: 0;
+    background-color: rgb(32, 149, 114);
 }
+
 .tru th,
 td {
     padding: 20px;
@@ -21,15 +23,12 @@ td {
     background-color: rgb(234, 234, 234);
     color: rgb(73, 154, 127)
 }
-
-#determine {
-    border-bottom: 3px solid rgb(73, 154, 127);
-
-}
-
 #wraith {
-    background-color: rgb(73, 154, 127);
+
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     color: white;
+}
+.wert {
+    background-color: white;
 }
