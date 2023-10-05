@@ -1,0 +1,54 @@
+body {
+    background-color: azure;
+    width: 900px;
+    height: 700px;
+}
+
+#button {
+    position: absolute;
+    left: 258px;
+    bottom: 408px;
+}
+
+#identify {
+    background-color: yellow;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    color: black;
+    width: 460px;
+    height: 50px;
+}
+
+.inhe:hover {
+    color: yellow;
+}
+
+.inhe li {
+    float: left;
+}
+
+#main {
+    overflow-y: scroll;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+}
+
+#fhead {
+    position: fixed;
+    width: 500px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    right: 1000px;
+}
+
+#ffoot {}
+
+#text {
+    color: rgb(0, 0, 0);
+    position: absolute;
+   left: 230px;
+   top: 600px;
+}
