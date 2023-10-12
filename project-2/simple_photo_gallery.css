@@ -1,0 +1,43 @@
+/* * {
+    margin: 0 auto;
+} */
+
+#hea {
+    background-color: rgb(34, 29, 29);
+    color: white;
+    text-align: center;
+    height: 150px;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+#diiv {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    box-shadow: 5px grey;
+}
+
+#diiv img {
+    height: 400px;
+    width: 300px;
+    box-shadow: 10px grey;
+}
+.foot {
+    background-color: rgb(34, 29, 29);
+    color: white;
+    text-align: center;
+    width:1200px;
+    height: 300px;
+
+}
+.foootr {
+    color: white;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.atag {
+    display: flex;
+    justify-items: space-between;
+}
