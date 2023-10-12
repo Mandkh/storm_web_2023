@@ -1,8 +1,11 @@
-/* * {
+#page {
+    max-width: 1040px;
     margin: 0 auto;
-} */
+}
 
-#hea {
+
+
+header {
     background-color: rgb(34, 29, 29);
     color: white;
     text-align: center;
@@ -11,33 +14,54 @@
     margin: 0 auto;
 }
 
-#diiv {
-    display:flex;
+.image-gallery {
+    display: flex;
     flex-wrap: wrap;
     gap: 7px;
     box-shadow: 5px grey;
 }
 
-#diiv img {
+.image-gallery img {
     height: 400px;
     width: 300px;
     box-shadow: 10px grey;
 }
-.foot {
+
+footer {
     background-color: rgb(34, 29, 29);
     color: white;
     text-align: center;
-    width:1200px;
+    width: 1200px;
     height: 300px;
 
 }
-.foootr {
+
+footer {
     color: white;
-    display:flex;
+    display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
-.atag {
+
+.contact-info {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.home {
+    display: flex;
+    justify-items: space-between;
+}
+
+.info {
+    display: flex;
+    justify-items: space-between;
+}
+
+.contact {
     display: flex;
     justify-items: space-between;
 }
