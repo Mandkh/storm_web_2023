@@ -3,3 +3,6 @@
     color: rgb(216, 216, 58);
     text-align: center;
 }
+#main {
+    margin: 0 auto;
+}
