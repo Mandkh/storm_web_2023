@@ -1,0 +1,93 @@
+#page {
+    max-width: 1036px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: rgb(96, 105, 143);
+    text-align: center;
+    width: 100%;
+    /* height: 130px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px; */
+
+}
+header nav {
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+header h1 {
+    color: white;
+}
+
+header section {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: white;
+}
+
+.ptext {
+    color: rgb(95, 143, 247);
+    font-size: large;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header-right img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.pin1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.itext {
+    color: rgb(0, 64, 255);
+}
+
+.ptext2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.span1 {
+    background-color: rgb(3, 191, 25);
+    color: white;
+}
+
+.span2 {
+    background-color: blue;
+    color: white;
+}
+
+.ptext3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.span3 {
+    background-color: rgb(196, 23, 23);
+    color: white;
+}
+
+.span4 {
+    background-color: grey;
+    color: white;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
