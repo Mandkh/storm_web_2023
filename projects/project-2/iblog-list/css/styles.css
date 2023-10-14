@@ -13,10 +13,10 @@ header {
     border-top-left-radius: 18px; */
 
 }
+
 header nav {
     display: flex;
     color: white;
-    justify-content: center;
     justify-content: space-around;
 }
 
@@ -88,6 +88,21 @@ header section {
 }
 
 .images {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gapp {
+    height: 40px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    height: 120px;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
 }
