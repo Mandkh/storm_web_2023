@@ -35,23 +35,27 @@ header {
     justify-content: space-between;
 }
 
-.faceit b {
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.faceit {
+    display: flex;
+    align-items: center;
 }
 
-.faceit p {
+.faceit .text2 {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    /* 150% */
+    line-height: normal;
+    letter-spacing: 1px;
+    align-items: center;
+}
+
+.faceit .text1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
