@@ -15,5 +15,5 @@
     justify-content: space-around;
 }
 .container .container-item {
-    
+    display: flex;
 }
