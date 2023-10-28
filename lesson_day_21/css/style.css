@@ -1,0 +1,13 @@
+#page {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(115, 48, 48);
+    border-radius: 15px;
+}
+#page h1 {
+    text-align: center;
+    background-color: antiquewhite;
+    color: rgb(66, 22, 107);
+
+}
