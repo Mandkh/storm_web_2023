@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+		<p id = "p">Change me!</p>
+		
+        <button onclick = "turnRed()">Click Me!</button>
+        
+        <p id = "p2">Change me, but with addEventListener!</p>
+        <script>
+        	function turnRed()
+        	{
+        		var p = document.getElementById("p");
+        		p.style.color = "red";
+        	}
+        	
+        	//Creating a button
+        	var button = document.createElement("button");
+        	button.innerHTML = "Click Me Too!";
+        	//Adding an eventListener
+        	//See what happens if you change this function to turnRed
+        	button.addEventListener("click", function(){
+        	    var p = document.getElementById("p2");
+        	    p.style.color = "blue";
+        	});
+        	document.body.appendChild(button);
+            // about function 
+        </script>
+	</body>
+</html>

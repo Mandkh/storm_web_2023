@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+		    //Write your announcement function here
+		
+		    
+		
+		function announcement(message) {
+		    var h2Element = document.createElement("h2");
+		h2Element.innerHTML = message;
+		document.body.appendChild(h2Element);
+		} 
+		announcement("Extra Extra, Read All About It!");
+		announcement("Big news!");
+		
+		
+		</script>
+	</body>
+</html>
+<!--Extra Extra, Read All About It!-->
+<!--Big News Here!-->
+
+
+
+
+
+<!-- function drawCircle(radius, color, x, y) { ... }
+JavaScript
+
+
+drawCircle(300, 400, 40, “blue”);
+
+
+drawCircle(300, 400, “blue”, 40);
+
+
+drawCircle(40, “blue”, 300, 400);
+
+
+drawCircle(radius, color, x, y); -->
+
+
+
+
+
+ function main() {
+	drawCircle(40, "red", 100, 300);
+	drawCircle(50, "green", 50, 100);
+	drawCircle(50, "lavender", 200, 100);
+	drawCircle(70, "#fcba03", getWidth() / 2, getHeight() / 2);
+	
+}
+       
+// Function creates a circle and adds it to the canvas
+// Parameters: radius, color, x and y of circle's center
+function drawCircle(radius, color, x, y) {
+	let circle = new Circle(radius);
+	circle.setColor(color);
+	circle.setPosition(x, y);
+	circle.debug = false;
+	add(circle);
+}
+
