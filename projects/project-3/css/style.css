@@ -1,0 +1,95 @@
+#page {
+    max-width: 1430px;
+    margin: 0 auto;
+}
+
+nav {
+    max-width: 100%;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header {
+    background-image: url("../images/biz-header.jpg");
+    max-width: 100%;
+    background-position: center;
+    height: 486px;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+
+header nav #left-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 71.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+header nav #middle-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header nav #right-nav {
+    display: flex;
+    margin-right: 71.5px;
+}
+
+
+header nav {
+    background-color: #013560;
+    max-width: 1430px;
+    height: 70px;
+}
+
+
+
+
+
+#page header #navbar-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    color: #FFF;
+    padding-top: 100px;
+}
+
+#page header #navbar-content div button {
+    background-color: #013560;
+    color: #FFF;
+    border-radius: 5px;
+    width: 72px;
+    height: 26px;
+    border: 0;
+}
+
+
+#page header #navbar-content h1 {
+    text-align: center;
+}
+
+#page header #navbar-content div {
+    text-align: center;
+    padding-bottom: 26px;
+}
+#page header #navbar-content button {
+    text-align: center;
+}
+#page header #navbar-content p {
+    text-align: center;
+}
