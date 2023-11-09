@@ -57,9 +57,6 @@ header nav {
 }
 
 
-
-
-
 #page header #navbar-content {
     display: flex;
     justify-content: center;
@@ -87,30 +84,115 @@ header nav {
     text-align: center;
     padding-bottom: 26px;
 }
+
 #page header #navbar-content button {
     text-align: center;
 }
+
 #page header #navbar-content p {
     text-align: center;
 }
 
+/* main begins */
+
+/* slider begins */
+#page #slide {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 71.5px;
+    margin-right: 71.5px
+}
+
 #page #slide img {
     max-width: 100%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 71.5px;
-    padding-right: 71.5px;
 }
+
+
+#page #slide #button-left {
+    left: 36px;
+}
+
 #page #slide button {
     border-radius: 23px;
     width: 46px;
-    height: 46px;
-    border: #FFF;
-    color: #FFF;
+    height: 27.34px;
+    border: 1px solid #f6e9e9;
+    color: #f6e9e9;
+    position: relative;
+    background: none;
 }
-#page #slide #button-left {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    
+
+#page #slide #button-right {
+    right: 36px;
+}
+
+/* heading 2  */
+#page .heading2 h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* drawing lol */
+#page .heading2 .bruh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page .heading2 .bruh .pseudo {
+    height: 1px;
+    width: 49px;
+    background-color: #013560;
+    text-align: center;
+}
+
+#page .heading2 .bruh .circle {
+    width: 15px;
+    height: 15px;
+    background-color: #013560;
+    border-radius: 7.5px;
+}
+
+#page .heading2 .bruh .pseudo2 {
+    height: 1px;
+    width: 49px;
+    background-color: #013560;
+    text-align: center;
+}
+
+/* container 1 beggining */
+#page .heading2 .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 71.5px;
+    height: 500px;
+    padding-right: 71.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1287px;
+}
+
+#page .heading2 .container1 .picture {
+    width: 50%;
+    height: 100%;
+}
+#page .heading2 .container1 .text-about-us {
+    margin: 15px;
+    width: 608px;
+    height: 408px;
+}
+#page .heading2 .container1 .text-about-us button {
+    color: #FFF;
+    background-color: #013560;
+    height: 46px;
+    width: 188px;
+    border-radius: 13px;
+    border: none;
+}
+#page .heading2 .container1 .text-about-us p {
+color: #666;
 }
