@@ -93,3 +93,24 @@ header nav {
 #page header #navbar-content p {
     text-align: center;
 }
+
+#page #slide img {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 71.5px;
+    padding-right: 71.5px;
+}
+#page #slide button {
+    border-radius: 23px;
+    width: 46px;
+    height: 46px;
+    border: #FFF;
+    color: #FFF;
+}
+#page #slide #button-left {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    
+}
