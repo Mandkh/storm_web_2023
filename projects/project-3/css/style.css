@@ -172,6 +172,7 @@ header nav {
     padding-top: 30px;
     padding-bottom: 30px;
     gap: 0px 40px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
 
 }
 
@@ -231,14 +232,81 @@ header nav {
 }
 
 #page .heading3 .container2 {
-    width: 1287px;
-    height: 536px;
+    width: 1430px;
+    height: 705px;
     text-align: center;
     gap: 40px;
     display: flex;
     flex-wrap: wrap;
+    padding: 30px 71.5px;
 }
-#page .heading3 .container2 .icons {
+
+#page .heading3 .container2 .contentz {
+    width: 402.33px;
+    height: 248px;
+    flex-shrink: 0;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+#page .heading3 .container2 .contentz .icons {
     width: 100px;
     height: 100px;
+}
+
+#page .heading4 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#page .heading4 .bruh3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page .heading4 .bruh3 .pseudo3 {
+    height: 1px;
+    width: 49px;
+    background-color: #013560;
+    text-align: center;
+    display: flex;
+}
+
+#page .heading4 .bruh3 .circle3 {
+    width: 15px;
+    height: 15px;
+    background-color: #013560;
+    border-radius: 7.5px;
+    display: flex;
+}
+
+#page .heading4 .bruh3 .pseudo3 {
+    height: 1px;
+    width: 49px;
+    background-color: #013560;
+    text-align: center;
+    display: flex;
+}
+
+#page .container3 {
+    width: 1430px;
+    height: 561px;
+    display: flex;
+    padding: 30px 71.5px;
+    gap: 20px;
+    flex-direction: row;
+}
+
+
+#page .container3 .container3-items .face-pics img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+#page .container3 .container3-items .face-pics {
+    width: auto;
+    height: 341.25px;
+    display: flex;
+    background-color: aliceblue;
 }
