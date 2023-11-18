@@ -292,21 +292,62 @@ header nav {
     width: 1430px;
     height: 561px;
     display: flex;
-    padding: 30px 71.5px;
+    /* padding: 30px ; */
     gap: 20px;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
-#page .container3 .container3-items .face-pics img {
+#page .container3 .container3-items img {
     width: 250px;
     height: 250px;
     border-radius: 125px;
 }
 
-#page .container3 .container3-items .face-pics {
-    width: auto;
-    height: 341.25px;
+#page .container3 .container3-items {
+    width: 341.25px;
+    height: 412px;
     display: flex;
-    background-color: aliceblue;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+#page .container3 .container3-items h2 {
+    color: #7BB7C6;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+    display: flex;
+    gap: -20px;
+}
+
+#page .container3 .container3-items .social-connects {
+    height: 55px;
+    width: 274.25px;
+    background-color: #fffcfc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#page .container3 .container3-items .social-connects div {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #7BB7C6;
+}
+
+#page .container3 .container3-items .social-connects div .social-icons {
+    width: 12px;
+    height: 8px;
 }
