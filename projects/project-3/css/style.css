@@ -345,9 +345,79 @@ header nav {
     background-color: #fff;
     display: flex;
     border: 1px solid #7BB7C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#page .container3 .container3-items .social-connects div .social-icons {
+#page .container3 .container3-items .social-connects div .fb-icon {
     width: 12px;
-    height: 8px;
+    height: 18px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#page .container3 .container3-items .social-connects div .twitter-icon {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#page .container3 .container3-items .social-connects div .insta-icon {
+    width: 16px;
+    height: 18px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#page .container3 .container3-items .social-connects div .in-icon {
+    width: 16px;
+    height: 18px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+/* container4 starting */
+#page .container4 {
+    display: flex;
+    width: 1430px;
+}
+
+#page .container4 form {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    width: 54.9%;
+    /* height: 534px; */
+}
+
+#page .container4 form button {
+    display: inline-flex;
+    padding: 12px 30px 13px 30px;
+    border-radius: 10px;
+    width: 121px;
+    height: 46px;
+}
+
+#page .container4 form button h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+#page .container4 .google-map {
+    display: flex;
+    justify-content: space-between;
+    width: 45.1%;
+    height: 526px;
 }
