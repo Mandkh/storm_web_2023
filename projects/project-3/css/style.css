@@ -402,6 +402,10 @@ header nav {
     border-radius: 10px;
     width: 121px;
     height: 46px;
+    display: flex;
+    align-items: center;
+    background-color: #013560;
+    border: none;
 }
 
 #page .container4 form button h1{
@@ -420,4 +424,10 @@ header nav {
     justify-content: space-between;
     width: 45.1%;
     height: 526px;
+}
+
+
+#page .container4 form label {
+    border-top: none;
+    
 }
