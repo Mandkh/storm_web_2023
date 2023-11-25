@@ -308,7 +308,7 @@ header nav {
 
 #page .container3 .container3-items {
     width: 341.25px;
-    height: 412px;
+    height: 440px;
     display: flex;
     background-color: #fff;
     display: flex;
@@ -332,7 +332,7 @@ header nav {
 #page .container3 .container3-items .social-connects {
     height: 55px;
     width: 274.25px;
-    background-color: #fffcfc;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -386,6 +386,7 @@ header nav {
 #page .container4 {
     display: flex;
     width: 1430px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10);
 }
 
 #page .container4 form {
@@ -394,9 +395,10 @@ header nav {
     justify-content: space-between; */
     width: 54.9%;
     /* height: 534px; */
+    text-align: center;
 }
 
-#page .container4 form button {
+#page .container4 form button{
     display: inline-flex;
     padding: 12px 30px 13px 30px;
     border-radius: 10px;
@@ -406,9 +408,11 @@ header nav {
     align-items: center;
     background-color: #013560;
     border: none;
+    margin-top: 6px;
+    justify-content: left;
 }
 
-#page .container4 form button h1{
+#page .container4 form button h1 {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -422,12 +426,43 @@ header nav {
 #page .container4 .google-map {
     display: flex;
     justify-content: space-between;
-    width: 45.1%;
+    width: 49%;
     height: 526px;
 }
 
 
-#page .container4 form label {
+#page .container4 form input {
     border-top: none;
-    
+    border-bottom: 1px solid #333;
+    background: #FFF;
+    border-left: none;
+    border-right: none;
+    width: 690px;
+    margin-bottom: 10px;
+}
+
+#page .container4 form textarea {
+    border-bottom: 1px solid #333;
+    background: #FFF;
+    border-left: none;
+    border-right: none;
+    height: 200px;
+    border-top: none;
+}
+
+#page .container4 form button {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+/* container 5 beggining */
+
+#page .container5 {
+    padding-top: 30px;
+    display: flex;
+    width: 1430px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10);
+    height: 200px;
 }
