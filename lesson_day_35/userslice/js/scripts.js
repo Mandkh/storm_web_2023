@@ -37,7 +37,7 @@ const usersSlice = users.slice(0, 3);
 const userElement = document.createElement('ul');
 // creating li element
 usersSlice.forEach(user => {
-    const li = document.createElement('li');
+    const li = document.createElement('li'); t
     li.textContent = user.name;
     userElement.appendChild(li);
 });
