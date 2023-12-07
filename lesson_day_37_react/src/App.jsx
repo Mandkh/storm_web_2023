@@ -19,6 +19,7 @@ function App() {
         <Link to="/about" className='mr-4'>About</Link>
         <Link to="/contact" className='mr-4'>Contact</Link>
         <Link to="/posts">Posts</Link>
+        <Link to="/users">Users</Link>
 
       </nav>
       <Routes>
@@ -33,6 +34,7 @@ function App() {
         <Route path='/posts/:postId' element={< PostDetail />} />
         <Route path='/profile' element={<Profile/>} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/users' element={<Datafetcher/>} />
       </Routes>
 
     </div>
