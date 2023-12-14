@@ -1,8 +1,14 @@
+import Header from "./Header";
+import SideBar from "./Side-Bar";
+import Content from "./Content";
 function Home() {
     return (
         // layout
-        <div className="layout flex flex-row m-w-[1440px] border-1">
-
+        <div className="flex flex-row">
+            {/* <Header /> */}
+            <SideBar />
+            <Content />
+            {/* <Content /> */}
         </div>
     )
 

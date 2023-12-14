@@ -12,11 +12,10 @@ function App() {
 
   return (
     <div>
-      <card />
       <Home />
-      <Header />
+      {/* <Header />
       <Content />
-      <SideBar />
+      <SideBar /> */}
     </div>
   )
 }
