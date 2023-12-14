@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-function Sidebar() {
+function SideBar() {
 
     const [menu, setMenu] = useState(false)
 
@@ -38,4 +38,4 @@ function Sidebar() {
         </div>
     )
 }
-export default Sidebar;
+export default SideBar;

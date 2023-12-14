@@ -3,10 +3,9 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/Home'
-import Sidebar from './components/sideBar'
 import Header from './components/Header'
 import  Content from './components/Content'
-import card from './components/card'
+import SideBar from './components/Side-Bar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +16,7 @@ function App() {
       <Home />
       <Header />
       <Content />
-      <Sidebar />
+      <SideBar />
     </div>
   )
 }
