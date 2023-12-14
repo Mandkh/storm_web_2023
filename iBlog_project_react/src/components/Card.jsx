@@ -1,4 +1,4 @@
-function card() {
+function Card() {
     return (
         <div className="flex flex-col shadow rounded-lg">
             <img src="./images/logo.png" className="w-52 h-36 m-2 rouned" />
@@ -20,4 +20,4 @@ function card() {
     );
 }
 
-export default card;
+export default Card;

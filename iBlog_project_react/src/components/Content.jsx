@@ -1,5 +1,4 @@
-import logo from './images/logo.png'
-import card from './card';
+
 function Content() {
     return (
         <div className="main-content">
